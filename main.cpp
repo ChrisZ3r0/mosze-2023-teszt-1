@@ -25,7 +25,7 @@ int main()
 
     delete[] b;											    // bár úgyis kilép a program, azért szabadítsuk fel a memóriát
 
-    return 0;
     std::cout << "Program stopping..... " << std::endl;
+    return 0;
 
 }
